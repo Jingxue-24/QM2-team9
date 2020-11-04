@@ -12,6 +12,15 @@ Context and motivation
 
 
 Suggest Available Datasets
+We will take advantage of Spotify’s API as it contains audio features and analysis of the range of tracks they offer on their platform.
+As we are examining the popularity of songs, we will also require a ranking of these tracks. 
+We have found some datasets on Billboard Hot 100 songs from a large range of years. 
+
+Links to datasets: 
+https://data.world/typhon/billboard-hot-100-songs-from-1970-2017	
+https://www.kaggle.com/danield2255/data-on-songs-from-billboard-19992019 
+https://github.com/guoguo12/billboard-charts
+https://rstudio-pubs-static.s3.amazonaws.com/198801_49ebd6cd54f64d5cb60377820f4d6b89.html (contains a link to the dataset they used)
 
 
 Suggest/sketch methods for analysis/processing of data

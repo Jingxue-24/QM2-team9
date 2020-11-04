@@ -23,7 +23,13 @@ https://github.com/guoguo12/billboard-charts
 https://rstudio-pubs-static.s3.amazonaws.com/198801_49ebd6cd54f64d5cb60377820f4d6b89.html (contains a link to the dataset they used)
 
 
-Suggest/sketch methods for analysis/processing of data
+**Suggest/sketch methods for analysis/processing of data**
+
+After cleaning our data we would like to compare the audio features of the top hit songs per year / decades. 
+We would analyse the dancibility, tempo… of the top 10 songs of each year to see how popular songs have evolved through time. 
+We would calculate the mean of each audio feature per year to see how the perfect hit songs was each year in the last 50 year and how it changed.
+We would also analyse other aspects of hit songs such as the mood, duration of the song…
+
 
 
 Suggest/sketch methods for presenting data/results
@@ -34,3 +40,6 @@ By generalizing the pattern of hit songs over the decade, we would generate a fo
 The longitudinal analysis of various factors shows the evolution of preference and the entire music industry, 
 where the difference and connection between generations are demonstrated. 
 We would also use music as a lens to observe the implicit change of our culture and society for a broader view. 
+
+
+

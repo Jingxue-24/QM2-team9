@@ -1,1 +1,13 @@
 How can we analyse the data?
+
+The variables we can explore: 
+- Duration (ms)
+- Key (Spotify uses Pitch Class Notation, 0-11)
+- Tempo (BPM)
+- Time Signature (not available on data_spotify.csv. Measured 3-7 (over 4))
+- Danceability (0-1, 1 being most danceable)
+- Energy (0-1, 1 being most energetic)
+- Instrumentalness (over 0.5 indicates instrumental songs, but the closer it is to one, the more confident it is that it is instrumental)
+- Valence (0-1, lower = sad, higher = happy)
+
+Not using 'mode' as it can be be unreliable, according to Spotify API documentation.

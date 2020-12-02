@@ -11,3 +11,17 @@ The variables we can explore:
 - Valence (0-1, lower = sad, higher = happy)
 
 Not using 'mode' as it can be be unreliable, according to Spotify API documentation.
+
+Clustering:
+Either we use principal component analysis (PCA), confirmatory factor analysis (CFA) or exploratory factor analysis (EFA). 
+
+From the research I did (references below), it seems that EFA is ideal for us because it includes the steps of check our assumptions (to see if we can even group the data!) and does not require us to already have an idea of what the cluster model would be, unlike CFA. If we find out that our variables are highly correlated, then I think we are gonna have to do PCA. 
+
+References: https://support.sas.com/resources/papers/proceedings/proceedings/sugi30/203-30.pdf | https://www.researchgate.net/post/How-can-I-decide-between-using-principal-components-analysis-versus-factor-analysis
+
+How do we know if the evolution/changes between decades/years is statistically significant?:
+We would have to do an ANOVA/ANCOVA (I am not too sure rn which one... I'm thinking ANOVA) or a t-test (only if we have homogenous variances).
+
+I am not sure if we want to a linear regression (simple or multivariate).
+
+Whatever we do, we need to also do the correct assumptions test for them (eg: Shapiro Wilk, Levene's Test etc). 

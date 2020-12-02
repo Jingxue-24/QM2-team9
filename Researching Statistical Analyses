@@ -24,4 +24,17 @@ We would have to do an ANOVA/ANCOVA (I am not too sure rn which one... I'm think
 
 I am not sure if we want to a linear regression (simple or multivariate).
 
-Whatever we do, we need to also do the correct assumptions test for them (eg: Shapiro Wilk, Levene's Test etc). 
+Whatever we do, we need to also do the correct assumptions test for them (eg: Shapiro Wilk, Levene's Test etc).
+
+Looked into two different types of analyses: Descriptive analysis and Predictive Analysis. Descriptive is quite simple - similar to google analytics style.
+Predictive analysis:
+Looked into three different types: Naive Bayes (Gaussian type), Neural Network and Random Forest.
+Naive Bayes works out the probability of B happening given A has happened. Could possibly use this as extra analysis e.g. Given tempo is high, what is the probability of another factor also being high. Tells us that factors can be grouped together when making a popular song. Although factors have to be independant.
+Neural Network essentially is a predictive network. Once we give it the data, it should predict what a popular song should be. There is a process of weights and biases. We can use possibly attach weightings to the years (up until the most recent data) and then see if our neural network provides the output for the most recent data i.e. determining that using data of previous years you can then predict to an extent the next year.
+Random Forest may be applicable but don't think it's worth analysing. 
+References: 
+https://towardsdatascience.com/end-to-end-python-framework-for-predictive-modeling-b8052bb96a78
+https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c
+https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf
+https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6
+Couple references explain the coding of a neural network but may be worth using a video. Initial research claims it's not difficult to build a neural network (although it looks it). I've also asked a CS friend on his opinion on a neural network. Tried to attend Cindy's office hour but she wasn't there towards the end.

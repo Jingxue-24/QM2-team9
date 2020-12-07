@@ -1,13 +1,22 @@
-## **Cleaning the data for the 100 billboard chart**
-
-https://data.world/typhon/billboard-hot-100-songs-from-1970-2017/workspace/file?filename=songs_1970_2018_uniq.csv
-Cleaned the data to keep only the top 50 songs for each year between 1990 and 1970
-
-Code to clean the dataset: 
+Cleaning the data for a weekly billboard: 
 
 import pandas as pd
-billboard = pd.read_csv("Billboard.csv", sep=",", encoding='cp1252')
-billboard.drop(columns = ["rank"])
-billboard2 = billboard.rename(columns={"#date" : "Year", "title" : "Title", "artist" : "Artist", "rank" : "Rank"})
-finalbillboard = billboard2[billboard2["Rank"] <= 50]
-finalbillboard.to_csv("Desktop\billboard3.csv")
+billboard = pd.read_csv("Hot100.csv")
+billboard.head()
+
+billboard2 = billboard.rename(columns={"date" : "year", "position" : "Position", "song" : "Song", "artist" : "Artist"}) 
+billboard3 = billboard2.rename(columns={"Artist": "artists", "Song": "name"})
+billboard3.head()
+
+finalbillboard = billboard3[billboard2["Position"] <= 10]
+finalbillboard
+spotify = pd.read_csv("data_spotify.csv")
+spotify.head()
+
+spotify2 = spotify.set_index("name")
+spotify2.head()
+
+merged_df = spotify2.merge(finalbillboard, how = 'inner', on = ['artists', 'name'])
+merged_df
+
+newdatata = merged_df.sort_values("year_y")

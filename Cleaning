@@ -20,3 +20,21 @@ merged_df = spotify2.merge(finalbillboard, how = 'inner', on = ['artists', 'name
 merged_df
 
 newdatata = merged_df.sort_values("year_y")
+
+
+
+Cleaning the data for a yearly billboard:
+import pandas as pd
+billboard = pd.read_csv("lol.csv")
+billboard.head()
+
+billboard2 = billboard.rename(columns={"song": "name"})
+billboard2
+spotify = pd.read_csv("data_spotify.csv")
+spotify.head()
+spotify3 = spotify.rename(columns={"year": "Year"})
+
+spotify2 = spotify3.set_index("name")
+spotify2.head()
+merged_df = spotify2.merge(billboard2, how = 'inner', on = ['artists', 'name', 'Year'])
+merged_df

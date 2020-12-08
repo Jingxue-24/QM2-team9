@@ -1,3 +1,30 @@
+Using the Spotify API
+
+Access the spotify API: 
+
+INSTALL SPOTIPY (THE LIBRARY THAT ALLOWS US TO USE THE API)
+
+pip install spotipy --upgrade
+
+import pandas as pd
+import spotipy
+sp = spotipy.Spotify()
+from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy.util as util 
+
+GET MY SECRET ENVIRONMENT CODES
+
+import os
+os.environ['SPOTIPY_CLIENT_ID'] = 'bf56488a43a94f21804b8ee461c1f98b'
+
+import os
+os.environ['SPOTIPY_CLIENT_SECRET'] = '424db6a145704a66ad4fa22c25ab098f'
+
+
+
+
+
+
 Cleaning the data for a weekly billboard: 
 
 import pandas as pd

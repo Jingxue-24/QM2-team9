@@ -20,6 +20,8 @@ os.environ['SPOTIPY_CLIENT_ID'] = 'bf56488a43a94f21804b8ee461c1f98b'
 import os
 os.environ['SPOTIPY_CLIENT_SECRET'] = '424db6a145704a66ad4fa22c25ab098f'
 
+access_token = "BQD8sBNDqPUfXM4WMo8y5rXBdhSxli6banfxdNHRpbzgz5c5iClbkked1iFtyQFUFKvWd7qRavmn7JDIQcw"
+
 
 
 

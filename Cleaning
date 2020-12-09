@@ -22,7 +22,14 @@ os.environ['SPOTIPY_CLIENT_SECRET'] = '424db6a145704a66ad4fa22c25ab098f'
 
 access_token = "BQD8sBNDqPUfXM4WMo8y5rXBdhSxli6banfxdNHRpbzgz5c5iClbkked1iFtyQFUFKvWd7qRavmn7JDIQcw"
 
+GET AUDIO FEATURES FROM 1 TRACK
 
+import spotipy
+import spotipy.oauth2
+
+credentials = spotipy.oauth2.SpotifyClientCredentials()
+spotify = spotipy.Spotify(client_credentials_manager=credentials)
+print(spotify.audio_features(['6VzcQuzTNTMFnJ6rBSaLH9']))
 
 
 

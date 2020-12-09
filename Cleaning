@@ -31,6 +31,17 @@ credentials = spotipy.oauth2.SpotifyClientCredentials()
 spotify = spotipy.Spotify(client_credentials_manager=credentials)
 print(spotify.audio_features(['6VzcQuzTNTMFnJ6rBSaLH9']))
 
+GET AUDIO FEATURES FROM MULTIPLE TRACKS
+
+import spotipy
+import spotipy.util as util
+from spotipy import oauth2
+
+credentials = spotipy.oauth2.SpotifyClientCredentials()
+spotify = spotipy.Spotify(client_credentials_manager=credentials)
+
+sp.audio_features(tracks=["1ZMiCix7XSAbfAJlEZWMCp", "5JiH89mHrv9oWHlD0T326z"])
+
 
 
 

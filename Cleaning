@@ -43,6 +43,46 @@ spotify = spotipy.Spotify(client_credentials_manager=credentials)
 sp.audio_features(tracks=["1ZMiCix7XSAbfAJlEZWMCp", "5JiH89mHrv9oWHlD0T326z"])
 
 
+GET AUDIO FEATURES OF PLAYLIST INTO A DATASET (some of the code was taken from https://medium.com/better-programming/how-to-extract-any-artists-data-using-spotify-s-api-python-and-spotipy-4c079401bc37)
+
+def Playlist_Tracks_Features(id):
+  meta = sp.track(id)
+  features = sp.audio_features(id)
+
+  # Get basic song features
+  name = meta['name']
+  album = meta['album']['name']
+  artist = meta['album']['artists'][0]['name']
+  release_date = meta['album']['release_date']
+  length = meta['duration_ms']
+  popularity = meta['popularity']
+
+  # Get audio features
+  acousticness = features[0]['acousticness']
+  danceability = features[0]['danceability']
+  energy = features[0]['energy']
+  instrumentalness = features[0]['instrumentalness']
+  liveness = features[0]['liveness']
+  loudness = features[0]['loudness']
+  speechiness = features[0]['speechiness']
+  tempo = features[0]['tempo']
+  time_signature = features[0]['time_signature']
+
+  track = [name, album, artist, release_date, length, popularity, danceability, acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, tempo, time_signature]
+  return track 
+
+# Get all tracks of playlist
+tracks = []
+for i in range(len(ids)):
+  track = Playlist_Tracks_Features(ids[i])
+  tracks.append(track)
+
+# create dataset
+df = pd.DataFrame(tracks, columns = ['Name', 'Album', 'Artist', 'Release_date', 'Length', 'Popularity', 'Danceability', 'Acousticness', 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Tempo', 'Time_signature'])
+
+df.tail()
+
+
 
 
 Cleaning the data for a weekly billboard: 
@@ -67,8 +107,6 @@ merged_df = spotify2.merge(finalbillboard, how = 'inner', on = ['artists', 'name
 merged_df
 
 newdatata = merged_df.sort_values("year_y")
-
-
 
 Cleaning the data for a yearly billboard:
 import pandas as pd

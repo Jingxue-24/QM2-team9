@@ -97,6 +97,15 @@ df = pd.DataFrame(tracks, columns = ['Name', 'Album', 'Artist', 'Release_date', 
 
 df.tail()
 
+DOWNLOAD FILE
+
+df.to_csv("spotify.csv", sep = ',')
+
+from google.colab import files
+import pandas as pd
+
+df.to_csv('spotify.csv')
+files.download('spotify.csv')
 
 
 

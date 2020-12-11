@@ -45,6 +45,21 @@ sp.audio_features(tracks=["1ZMiCix7XSAbfAJlEZWMCp", "5JiH89mHrv9oWHlD0T326z"])
 
 GET AUDIO FEATURES OF PLAYLIST INTO A DATASET (some of the code was taken from https://medium.com/better-programming/how-to-extract-any-artists-data-using-spotify-s-api-python-and-spotipy-4c079401bc37)
 
+
+def getTrackIDs(user, playlist_id):
+    ids = []
+    playlist = sp.user_playlist(user, playlist_id)
+    for item in playlist['tracks']['items']:
+        track = item['track']
+        ids.append(track['id'])
+    return ids
+
+
+ids = getTrackIDs('Carmen van Poelgeest', '6VbFCsgVzOKvBVudNhUttQ')
+
+
+
+
 def Playlist_Tracks_Features(id):
   meta = sp.track(id)
   features = sp.audio_features(id)

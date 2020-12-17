@@ -1,0 +1,21 @@
+,Name,Album,Artist,Popular_year,Release_date,Length,Popularity,Danceability,Acousticness,Danceability,Energy,Instrumentalness,Liveness,Loudness,Speechiness,Tempo,Time_signature
+0,Hollaback Girl,Love Angel Music Baby,Gwen Stefani,2005,2004-10-27,199906,3,0.918,0.344,0.918,0.918,5.35E-06,0.0243,-2.218,0.0954,110.024,4
+1,Let Me Love You,Turning Point,Mario,2005,2004-12-06,249093,65,0.622,0.163,0.622,0.593,0.0,0.0979,-8.352,0.0916,94.364,4
+2,Since U Been Gone,Breakaway,Kelly Clarkson,2005,2004-01-17,188960,72,0.662,0.00165,0.662,0.741,0.0303,0.114,-5.406,0.0334,131.0,4
+3,"One, Two Step (feat. Missy Elliott)",Goodies,Ciara,2005,2004-09-27,203786,74,0.944,0.042,0.944,0.511,0.00107,0.0379,-10.96,0.161,113.046,4
+4,Gold Digger,Late Registration,Kanye West,2005,2005-08-30,207626,77,0.629,0.0195,0.629,0.696,0.0,0.0554,-5.572,0.348,93.034,4
+5,"Boulevard of Broken Dreams - Live at Milton Keynes National Bowl, Milton Keynes, England, 6/18/05",Bullet in a Bible,Green Day,2005,2005-11-15,284960,43,0.259,0.0583,0.259,0.983,0.000298,0.972,-3.523,0.0869,166.81,4
+6,Candy Shop,The Massacre,50 Cent,2005,2005-03-03,208533,0,0.609,0.0305,0.609,0.588,0.000142,0.369,-7.992,0.481,128.763,5
+7,Don't Cha,PCD,The Pussycat Dolls,2005,2005-01-01,272080,67,0.877,0.00516,0.877,0.637,2.5E-06,0.0959,-3.493,0.101,119.988,4
+8,Behind These Hazel Eyes,Breakaway,Kelly Clarkson,2005,2004-01-17,198973,59,0.548,0.00165,0.548,0.889,0.00109,0.197,-4.682,0.0382,90.048,4
+9,Disco Inferno,The Massacre,50 Cent,2005,2005-03-03,214226,0,0.921,0.26,0.921,0.659,6.82E-05,0.216,-4.852,0.25,97.055,4
+10,You And Me,Lifehouse,Lifehouse,2005,2005-01-01,195493,0,0.461,0.1,0.461,0.446,0.0,0.169,-7.703,0.0267,139.868,3
+11,Don't Phunk With My Heart,Monkey Business,Black Eyed Peas,2005,2005-01-01,239773,55,0.689,0.00933,0.689,0.929,0.0,0.548,-2.76,0.0608,130.899,4
+12,Lose Control (feat. Ciara & Fat Man Scoop),The Cookbook,Missy Elliott,2005,2005-07-04,226863,67,0.904,0.0311,0.904,0.813,0.00697,0.0471,-7.105,0.121,125.461,4
+13,Shake It Off,The Emancipation of Mimi,Mariah Carey,2005,2005-01-01,232840,61,0.777,0.181,0.777,0.493,0.0,0.108,-6.516,0.126,134.086,4
+14,Mr. Brightside,Hot Fuss,The Killers,2005,2004-06-15,222586,76,0.356,0.00101,0.356,0.924,0.0,0.0953,-3.74,0.0808,148.017,4
+15,Just A Lil Bit,The Massacre,50 Cent,2005,2005-03-03,237706,0,0.724,0.0397,0.724,0.692,0.00477,0.314,-6.75,0.324,96.937,4
+16,Pon de Replay,Music Of The Sun,Rihanna,2005,2005-08-29,246960,78,0.779,0.000155,0.779,0.64,0.00077,0.101,-8.415,0.159,99.019,4
+17,How We Do,The Documentary,The Game,2005,2005,235533,74,0.862,0.0455,0.862,0.648,0.0,0.0332,-7.401,0.251,98.012,4
+18,Beverly Hills,Make Believe,Weezer,2005,2005-05-10,196093,70,0.693,0.0932,0.693,0.823,0.0,0.328,-3.761,0.0726,87.904,4
+19,We Belong Together,The Emancipation of Mimi,Mariah Carey,2005,2005-01-01,201400,70,0.837,0.0339,0.837,0.462,0.0,0.09,-7.89,0.0601,139.986,4

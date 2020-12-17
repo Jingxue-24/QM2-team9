@@ -1,0 +1,21 @@
+,Name,Album,Artist,Popular_year,Release_date,Length,Popularity,Danceability,Acousticness,Danceability,Energy,Instrumentalness,Liveness,Loudness,Speechiness,Tempo,Time_signature
+20,Rolling in the Deep,21,Adele,2011,2011-01-19,228293,75,0.729,0.131,0.729,0.756,0.0,0.0527,-5.119,0.0294,104.945,4
+21,Party Rock Anthem,Sorry For Party Rocking,LMFAO,2011,2011-01-01,262173,67,0.75,0.0189,0.75,0.727,0.0,0.266,-4.21,0.142,129.993,4
+22,Firework,Teenage Dream,Katy Perry,2011,2010-01-01,227893,65,0.638,0.141,0.638,0.832,0.0,0.113,-5.039,0.049,124.071,4
+23,E.T.,Katy Perry - Teenage Dream: The Complete Confection,Katy Perry,2011,2012-03-12,229573,65,0.62,0.0181,0.62,0.869,0.0,0.369,-5.252,0.175,151.684,4
+24,"Give Me Everything (feat. Ne-Yo, Afrojack & Nayer)",Planet Pit (Deluxe Version),Pitbull,2011,2011-06-17,252306,79,0.671,0.192,0.671,0.939,0.0,0.298,-3.206,0.161,129.023,4
+25,Grenade,Doo-Wops & Hooligans,Bruno Mars,2011,2010-10-05,223253,75,0.706,0.146,0.706,0.558,0.0,0.118,-7.237,0.0593,110.443,4
+26,Fuck You,The Lady Killer,CeeLo Green,2011,2010-11-09,222933,67,0.69,0.129,0.69,0.834,0.0,0.136,-5.79,0.0566,127.43,4
+27,Super Bass,Pink Friday,Nicki Minaj,2011,2010-01-01,200013,1,0.721,0.29,0.721,0.867,2.87E-06,0.503,-4.302,0.196,127.033,4
+28,Moves Like Jagger - Studio Recording From The Voice Performance,Hands All Over,Maroon 5,2011,2010,201160,69,0.722,0.0111,0.722,0.758,0.0,0.308,-4.477,0.0471,128.047,4
+29,Just Can’t Get Enough,The Beginning,Black Eyed Peas,2011,2010-01-01,219426,73,0.659,0.186,0.659,0.628,0.0,0.105,-8.685,0.179,94.05,4
+30,On The Floor - Radio Edit,On The Floor,Jennifer Lopez,2011,2011-01-01,230906,75,0.758,0.0848,0.758,0.686,0.00127,0.142,-6.346,0.0792,130.007,4
+31,S&M,Loud,Rihanna,2011,2010-11-15,243533,61,0.766,0.0113,0.766,0.682,0.00016,0.104,-5.02,0.0419,127.966,4
+32,Pumped Up Kicks,Torches,Foster The People,2011,2011-05-23,239600,84,0.733,0.145,0.733,0.71,0.115,0.0956,-5.849,0.0292,127.975,4
+33,Last Friday Night (T.G.I.F.),Teenage Dream,Katy Perry,2011,2010-01-01,230733,67,0.652,0.00125,0.652,0.812,3.01E-05,0.667,-3.797,0.0409,126.023,4
+34,Just the Way You Are,Doo-Wops & Hooligans,Bruno Mars,2011,2010-10-05,220733,81,0.637,0.0151,0.637,0.843,0.0,0.0876,-5.413,0.0432,109.012,4
+35,Tonight (I'm Fuckin' You),Tonight (I'm Fuckin' You),Enrique Iglesias,2011,2010-01-01,231653,56,0.666,0.0277,0.666,0.877,1.15E-05,0.142,-4.657,0.0446,125.989,4
+36,Raise Your Glass,Raise Your Glass,P!nk,2011,2010-10-06,203333,5,0.7,0.00629,0.7,0.695,0.0,0.0319,-4.973,0.0897,122.028,4
+37,Born This Way,Born This Way (Special Edition),Lady Gaga,2011,2011-01-01,260253,67,0.587,0.00327,0.587,0.828,0.0,0.331,-5.108,0.161,123.907,4
+38,F**kin' Perfect,Greatest Hits...So Far!!!,P!nk,2011,2010-11-12,213586,0,0.575,0.0383,0.575,0.648,0.0,0.364,-4.747,0.0333,92.021,4
+39,What's My Name?,Loud,Rihanna,2011,2010-11-16,263173,56,0.69,0.229,0.69,0.786,0.0,0.0797,-2.959,0.0692,100.049,4

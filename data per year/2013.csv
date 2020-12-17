@@ -1,0 +1,21 @@
+,Name,Album,Artist,Popular_year,Release_date,Length,Popularity,Danceability,Acousticness,Danceability,Energy,Instrumentalness,Liveness,Loudness,Speechiness,Tempo,Time_signature
+60,Thrift Shop (feat. Wanz),The Heist,Macklemore & Ryan Lewis,2013,2012-10-10,235613,70,0.781,0.0619,0.781,0.526,0.0,0.0457,-6.985,0.293,94.992,4
+61,Blurred Lines,Blurred Lines (Deluxe),Robin Thicke,2013,2013-01-01,263826,74,0.853,0.00334,0.853,0.599,7.93E-06,0.0759,-4.756,0.0411,119.993,4
+62,Radioactive,Night Visions,Imagine Dragons,2013,2012-09-04,186813,72,0.448,0.106,0.448,0.784,0.000108,0.668,-3.686,0.0627,136.245,4
+63,Harlem Shake,Harlem Shake,Baauer,2013,2013-02-12,196664,58,0.452,0.0111,0.452,0.794,0.00182,0.416,-5.151,0.0483,137.825,4
+64,Can't Hold Us - feat. Ray Dalton,The Heist,Macklemore & Ryan Lewis,2013,2012-10-09,258342,83,0.641,0.0291,0.641,0.922,0.0,0.0862,-4.457,0.0786,146.078,4
+65,Mirrors - Radio Edit,Mirrors (Radio Edit),Justin Timberlake,2013,2013-02-11,277306,68,0.578,0.144,0.578,0.6,0.0,0.426,-5.7,0.0455,76.999,4
+66,Just Give Me a Reason (feat. Nate Ruess),The Truth About Love,P!nk,2013,2012-09-14,242733,1,0.778,0.346,0.778,0.547,0.000302,0.132,-7.273,0.0489,95.002,4
+67,When I Was Your Man,Unorthodox Jukebox,Bruno Mars,2013,2012-12-07,213826,83,0.612,0.932,0.612,0.28,0.0,0.088,-8.648,0.0434,72.795,4
+68,Cruise - Remix,Here's To The Good Times...This Is How We Roll,Florida Georgia Line,2013,2013-01-01,208786,55,0.525,0.0156,0.525,0.915,0.0,0.66,-4.351,0.0789,149.042,4
+69,Roar,PRISM (Deluxe),Katy Perry,2013,2013-10-18,223546,75,0.554,0.00487,0.554,0.772,6.6E-06,0.354,-4.821,0.0418,179.984,4
+70,Locked out of Heaven,Unorthodox Jukebox,Bruno Mars,2013,2012-12-07,233478,82,0.726,0.049,0.726,0.698,0.0,0.309,-4.165,0.0431,143.994,4
+71,Ho Hey,The Lumineers,The Lumineers,2013,2012-04-03,163133,71,0.685,0.794,0.685,0.466,2.06E-06,0.0915,-9.074,0.0304,79.936,4
+72,Stay,Unapologetic (Deluxe),Rihanna,2013,2012-12-11,240706,67,0.621,0.945,0.621,0.31,6.12E-05,0.117,-10.164,0.0283,111.893,4
+73,Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Radio Edit],Daft Punk,2013,2013-04-19,248413,77,0.794,0.0426,0.794,0.811,1.07E-06,0.101,-8.966,0.038,116.047,4
+74,Royals,Pure Heroine,Lorde,2013,2013-09-27,190185,76,0.674,0.121,0.674,0.428,0.0,0.132,-9.504,0.122,84.878,4
+75,I Knew You Were Trouble.,Red,Taylor Swift,2013,2012-10-22,217973,66,0.622,0.00454,0.622,0.469,2.25E-06,0.0398,-6.798,0.0363,77.019,4
+76,We Can't Stop,Bangerz (Deluxe Version),Miley Cyrus,2013,2013-10-04,231240,79,0.613,0.00882,0.613,0.622,0.0,0.37,-5.794,0.0334,80.003,4
+77,Wrecking Ball,Bangerz (Deluxe Version),Miley Cyrus,2013,2013-10-04,221360,77,0.53,0.407,0.53,0.422,0.0,0.107,-6.262,0.0342,119.964,4
+78,Wake Me Up,TRUE,Avicii,2013,2013-09-13,247426,55,0.532,0.0038,0.532,0.783,0.0012,0.161,-5.697,0.0523,124.08,4
+79,Suit & Tie,The 20/20 Experience,Justin Timberlake,2013,2013-03-15,326280,0,0.795,0.103,0.795,0.596,0.0,0.164,-3.799,0.219,101.985,4

@@ -1,0 +1,21 @@
+import pandas as pd
+df = pd.read_csv (r'/content/1970.csv')
+print (df)
+
+# Change the column name for other factors
+
+mean1 = df['Length'].mean()
+max1 = df['Length'].max()
+min1 = df['Length'].min()
+count1 = df['Length'].count()
+median1 = df['Length'].median() 
+std1 = df['Length'].std() 
+var1 = df['Length'].var()  
+
+print ('Mean length: ' + str(mean1))
+print ('Max length: ' + str(max1))
+print ('Min length: ' + str(min1))
+print ('Count of length: ' + str(count1))
+print ('Median length: ' + str(median1))
+print ('Std of length: ' + str(std1))
+print ('Var of length: ' + str(var1))

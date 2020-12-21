@@ -7,3 +7,30 @@ decade.head()
 
 newdecade = decade.transpose()
 newdecade.head()
+
+
+import matplotlib.pyplot as plt
+import pandas as pd
+from math import pi
+
+#Define the values for each category
+
+categories = np.array(['Danceability', 'Energy', 'Liveness'])
+N = len(categories)
+
+values = np.array([0.2, 0.4, 0.6])
+values += values[:1]
+
+N = len(values)
+
+#Calculate angle
+angles = [n / float(N) * 2 * pi for n in range(N)]
+angles += angles[:1]
+
+ax = plt.subplot(111, polar=True)
+plt.xticks(angles[:-1], categories, color='grey', size=8)
+
+
+ax.set_rlabel_position(0)
+plt.yticks([0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1], ["0.2","0.4","0.6", "0.8","1"], color="grey", size=7)
+plt.ylim(0,1)

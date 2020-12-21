@@ -1,1 +1,9 @@
+import pandas as pd
 
+# Dataset is now stored in a Pandas Dataframe
+url = 'https://raw.githubusercontent.com/Jingxue-24/QM2-team9/main/datadecade.csv'
+decade = pd.read_csv(url)
+decade.head()
+
+newdecade = decade.transpose()
+newdecade.head()

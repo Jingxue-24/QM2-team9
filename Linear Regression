@@ -1,0 +1,23 @@
+def LinearRegression():
+    import pandas as pd
+    import matplotlib.pylot as plt
+    from sklearn.linear_model import LinearReggression
+    name_of_csv="~/Downloads/merged.csv.webarcive"
+    df = pd.read_csv(name_of_csv)
+    df.to_numpy()
+    X = df['Danceability']
+    y = df['Instrumentalness']
+    X_np=X.to_numpy()
+    y_np=y.to_numpy()
+    LinearRegression().fit(X_np, y_np)
+    X_np=X_np.reshape(-1, 1)
+    y_np=y_np.reshape(-1, 1)
+    LinearRegression().fit(X_np, y_np).coef_
+    LinearRegression().fit(X_np, y_np).intercept_
+    plt.plot(X_np, y_np)
+    plt.scatter(X_np, y_np)
+    return plt.plot(X_np, LinearRegression().fit(X_np, y_np).coef_*X_np + LinearRegression().fit(X_np, y_np).intercept_)
+   
+
+
+    

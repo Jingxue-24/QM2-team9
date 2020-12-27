@@ -1,0 +1,16 @@
+import pandas as pd
+import plotly.express as px
+
+df1 = pd.read_csv('median_length.csv')
+fig1 = px.line(df1, x = 'Year', y = 'Median length', title='Median of length vs. year')
+fig1.write_html("Output/mid_length.html")
+
+df2 = pd.read_csv('median_loudness.csv')
+fig2 = px.line(df2, x = 'Year', y = 'Median Loudness', title='Median of loudness vs. year')
+fig2.write_html("Output/mid_loudness.html")
+
+df3 = pd.read_csv('median_ts.csv')
+fig3 = px.line(df3, x = 'Year', y = 'Median Time signature', title='Median of time signature vs. year')
+fig3.write_html("Output/mid_ts.html")
+
+#do this on google colab

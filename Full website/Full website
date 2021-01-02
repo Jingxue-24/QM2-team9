@@ -14,9 +14,33 @@
 
 * DATA SETS *
 
-(Louise)
+(To be finished)
 
-* ANALYSIS *
+To perform our Analysis, we combined the Spotify API with the 'Top Hot 100 Billboard Chart'.
+
+'Top Hot 100 Billboard chart'
+
+The Hot 100 Billboard chart ranks the  most listened songs in the united states per year. Using this data set would really allow us to analyse the most popular
+songs in the United States per year.
+
+Within the top 100 billboard chart, we decided to only keep the top 20 songs per year. The top 20 really represented the most popular songs of the year known
+by most people. Choosing 20 songs rather than less also left us with a large enough dataset to perform a solid analysis.
+
+'Spotify API'
+
+We then used the spotiy API to get the audio feature of the songs we wanted to analyse. 
+
+In order to use the spotify API, we had to use a new library 'spotipy'.
+Spotipy is a library created by Spotify to access all the music data provided by Spotify. 
+
+In order to analyse our songs, we had to add them into plalists on Spotify. 
+We therefore created playlists with the top 20 songs per year under the profile XXX. We left this playlists public as we believe in the importance
+of Open Data. This would allow other people to use it too. 
+
+From what we obtained with Spotify API, we created our final dataset to analyse. 
+
+* ANALYSIS * 
+
 
 
 *** RESULTS ***
@@ -41,6 +65,7 @@ We can see that in 50 years there has been a sharp decrease in  accousticness. H
 have remained quite stable trough years. 
 We can observe that the change has been gradual with 80s and 90s songs having already less accousticness and more energy and Danciceability than 70s songs. 
 
+We can now see in more details how each audio feature evolved trough years:
 
 - Line graphs 
 - Regression 

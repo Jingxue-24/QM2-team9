@@ -23,7 +23,25 @@
 
 * VISUALISATION *
 
+(Everyone) 
+
+The results from our analysis allowed us to create a range of visulation displaying the evolution of the audio feautures of the top hits songs since 1970.
+
 - Radar Chart 
+
+(Radar Chart 1)
+We created a radar chart to display the mean audio feautures of the top '20 hit songs per year' per decade. 
+
+We can observe that top hit songs did evolved trough decades. This phenonomenon is even more accentuated when comparing audiofeatures of 1970 to 1979 hit songs
+and 2010 to 2019 hit songs.
+
+(Radar Chart 2)
+
+We can see that in 50 years there has been a sharp decrease in  accousticness. However, the Energy and Danceabilty of songs has increased. Other features
+have remained quite stable trough years. 
+We can observe that the change has been gradual with 80s and 90s songs having already less accousticness and more energy and Danciceability than 70s songs. 
+
+
 - Line graphs 
 - Regression 
 - CLustering 

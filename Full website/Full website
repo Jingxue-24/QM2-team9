@@ -39,6 +39,23 @@ of Open Data. This would allow other people to use it too.
 
 From what we obtained with Spotify API, we created our final dataset to analyse. 
 
+'Line graphs'
+Line graph was chosen for the first stage of our data visualization. It can demonstrate the change and evolution over time simply and effectively. Line graphs illustrate some basic patterns and general trends through summary statistics such as mean and median. By comparing different data types, we can evaluate the data more comprehensively (e.g., is mean affected by outliers?). To avoid presenting a lot of graphs on one page, we adopted an interactive graph. In this way, viewers are allowed to choose the data they are interested in and see the comparison among factors. 
+
+How we utilize Python to process line graphs:
+import pandas as pd
+import plotly.express as px
+Import pandas
+Use plotly as the foundation of the graph (reference)
+
+df1 = pd.read_csv('Data/median.csv')
+fig1 = px.line(df1, x = 'Year', y = ['Median length', 'Median Danceability', 'Median Energy', 'Median Instrumentalness', 'Median Acousticness', 'Median Liveness', 'Median Loudness', 'Median Speechiness', 'Median Tempo', 'Median Time signature'], title = ‘Median')
+Change elements to adapt our project.
+
+fig1.write_html(‘Output/Median.html’)
+
+Eventually, we convert the graphs into HTML files to insert them to our website.
+
 * ANALYSIS * 
 
 k-means and PCA

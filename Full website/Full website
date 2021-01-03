@@ -41,7 +41,19 @@ From what we obtained with Spotify API, we created our final dataset to analyse.
 
 * ANALYSIS * 
 
+k-means and PCA
+Both principal components analysis (PCA) and k-means were used in this clustering analysis. 
 
+Each song had multiple (11) dimensions, which were each of the audio features. PCA was used to reduce the dimensionality, which would help reduce the noise in the k-means clustering algorithm. It was used to essentially standardized and whiten the data. In this analysis, 9 dimensions were dropped. 
+
+K-means clustering was then used to find the natural groupings of songs. Since the PCA retained components with the highest variance, the clusters will be more visible as they will be the most spread out. PCA 1 accounts for over 25% of the variance while PCA 2 accounts for approximately 13% of the variance. 
+
+The elbow method suggested 3 groupings. The first group (named as cluster 0) includes songs such as Hello by Adele, Rosanna by Toto and Take Me Home, Country Roads by John Denver. The second group (named as cluster 1) has songs such as ABC by The Jackson 5, Don’t Go Breaking My Heart by Elton John and Pompeii by Bastille. The third and final grouping (named as cluster 2) contains tracks such as I’ll Make Love To You by Boyz II Men, Perfect by Ed Sheeran and One More Try by George Michael. 
+
+The first group is the smallest, containing only 30 songs. They had the lowest danceability and energy, with an average of 0.494 and 0.369 respectively on a 0 to 1 scale. These songs also had the highest acousticness at an average of 0.528 on a 0 to 1 scale. They also had the highest average tempo. 
+
+References: https://stats.stackexchange.com/questions/235946/pca-before-cluster-analysis 
+https://stats.stackexchange.com/questions/183236/what-is-the-relation-between-k-means-clustering-and-pca 
 
 *** RESULTS ***
 

@@ -123,6 +123,16 @@ We can now see in more details how each audio feature evolved trough years:
  *** LIMITS ***
  
  
+- We decided to only study the top 20 songs of the billboard each year. 
+This might be too restrictive or still to broad. Choosing a different definition of what is a popular song might have completely changed our study.
+
+- We decided to use the billboard chart to define the songs to analzse. 
+However, this chart ends up representing mostly the popular songs among teenagers and young adults 
+as they are the one listening the most to music rather than representing the popular songs among the population of the United States.
+
+- Even if Spotify gives a short definition of their audio features, they are not very well defined 
+therefore, we cannot be complty  sure of their signification and their reliability.
+
  *** CONCLUSIONS ***
 
 

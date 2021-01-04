@@ -14,30 +14,36 @@
 
 * DATA SETS *
 
-(To be finished)
+Data Sets
 
-To perform our Analysis, we combined the Spotify API with the 'Top Hot 100 Billboard Chart'.
+To perform our analysis, we decided to combine two data sets:  
+the ‘Billboard Year End Hot 100 songs’ chart from 1970  to 2019 and the Spotify API.
 
-'Top Hot 100 Billboard chart'
+These new dataset would allow us to analyze and create solid visualizations on the evolution of popular songs trough decades.
 
-The Hot 100 Billboard chart ranks the  most listened songs in the united states per year. Using this data set would really allow us to analyse the most popular
-songs in the United States per year.
+‘Year End, Hot 100 songs Billboard chart’
 
-Within the top 100 billboard chart, we decided to only keep the top 20 songs per year. The top 20 really represented the most popular songs of the year known
-by most people. Choosing 20 songs rather than less also left us with a large enough dataset to perform a solid analysis.
+The Year End, Hot 100 songs Billboard chart ranks every year the most listened songs in the United States. 
+Songs appearing on top of the chart can most of the time be considered as ‘very popular’.  
+
+For our project, we decided to only keep the top 20 songs of the billboard chart each year between 1970 and 2019. 
+We believed that the top 20 really represented the popular songs of the year. Moreover, choosing as much as 20 songs rather than less, 
+left us with a large enough database to perform a solid analysis.
 
 'Spotify API'
 
-We then used the spotiy API to get the audio feature of the songs we wanted to analyse. 
+After having chosen the songs we wanted to analyze, we used the Spotify API to obtain the audio feature of our songs. 
 
-In order to use the spotify API, we had to use a new library 'spotipy'.
-Spotipy is a library created by Spotify to access all the music data provided by Spotify. 
+In order to work with this Spotify API, we used a new python library 'Spotipy'.
+‘Spotipy’ is a library created by Spotify to access all the music data provided by Spotify including
+the audio features of a track.
 
-In order to analyse our songs, we had to add them into plalists on Spotify. 
-We therefore created playlists with the top 20 songs per year under the profile XXX. We left this playlists public as we believe in the importance
-of Open Data. This would allow other people to use it too. 
+In order for the Spotify API to analyze our tracks, we added the top 20 songs per year into playlists on Spotify :
+We created four playlists with the top 20 songs per year per decade under the profile XXX. 
+We left these playlists public and accessible to all as we believe in the importance of Open Data. 
+This would allow other people to use it too if needed. 
 
-From what we obtained with Spotify API, we created our final dataset to analyse. 
+We obtained our final data set to analyze. 
 
 'Line graphs'
 Line graph was chosen for the first stage of our data visualization. It can demonstrate the change and evolution over time simply and effectively. Line graphs illustrate some basic patterns and general trends through summary statistics such as mean and median. By comparing different data types, we can evaluate the data more comprehensively (e.g., is mean affected by outliers?). To avoid presenting a lot of graphs on one page, we adopted an interactive graph. In this way, viewers are allowed to choose the data they are interested in and see the comparison among factors. 

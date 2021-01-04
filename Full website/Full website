@@ -84,23 +84,35 @@ https://stats.stackexchange.com/questions/183236/what-is-the-relation-between-k-
 
 (Everyone) 
 
-The results from our analysis allowed us to create a range of visulation displaying the evolution of the audio feautures of the top hits songs since 1970.
+The results we obtained from our analysis allowed us to create a range of visualization displaying top hit songs 
+and their audio features evolved since 1970.
 
 - Radar Chart 
 
-(Radar Chart 1)
-We created a radar chart to display the mean audio feautures of the top '20 hit songs per year' per decade. 
+First we created radar charts to show how the average songs evolved trough decades in the last 50 years.
 
-We can observe that top hit songs did evolved trough decades. This phenonomenon is even more accentuated when comparing audiofeatures of 1970 to 1979 hit songs
-and 2010 to 2019 hit songs.
+(Radar Chart 1)
+
+The radar chart above displays the mean audio features of the top '20 hit songs per year' per decade. 
+We can observe that top hit songs did evolve trough decades and that their audio features changed trough time. 
+This phenomenon is even more accentuated when comparing the hit songs of the 70’s and of the 10’s. 
 
 (Radar Chart 2)
 
-We can see that in 50 years there has been a sharp decrease in  accousticness. However, the Energy and Danceabilty of songs has increased. Other features
+We can see that in 50 years there has been a sharp decrease in the accousticness of popular songs meaning 
+that more songs now have electronically produced sounds. 
+However, the Energy and Danceability of songs has increased meaning that today’s track are more suitable for dancing 
+and can be described as ‘more intense’ than songs in the 1970’s. However, other features such as speechless and instrumentalness 
 have remained quite stable trough years. 
-We can observe that the change has been gradual with 80s and 90s songs having already less accousticness and more energy and Danciceability than 70s songs. 
+
+We can observe that the changes have been gradual with 80s and 90s songs having already less accousticness and more energy and Danceability than 70s songs. 
+
+Interactive radar chart: 
+<div class="flourish-embed flourish-radar" data-src="visualisation/4851600"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 We can now see in more details how each audio feature evolved trough years:
+
 
 - Line graphs 
 - Regression 

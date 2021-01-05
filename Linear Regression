@@ -2,7 +2,7 @@ def LinearRegression():
     import pandas as pd
     import matplotlib.pylot as plt
     from sklearn.linear_model import LinearReggression
-    name_of_csv="~/Downloads/merged.csv.webarcive"
+    name_of_csv="cluster_all.csv"
     df = pd.read_csv(name_of_csv)
     df.to_numpy()
     X = df['Danceability']

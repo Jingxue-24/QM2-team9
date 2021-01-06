@@ -8,13 +8,29 @@ In this project, we will be analyzing how popular songs have evolved in the last
 in the United States and we will be trying to answer to the question 
 ‘How have the audio features of the Billboard top 20 songs evolved over the past 50 years?’ (to improve)
 
-*** CONTEXT ***
+* AIMS *
+1.	Explore what made songs popular in their time and how this has evolved. 
+By analysing the popular songs of each year we are able to analyse what makes these songs popular in a data driven way that looks at the songs themselves rather than supporting factors.
 
+2.	Analyse and compare the composite factors of popular songs throughout the years and identify any trends. 
+This is similar to our first aim, but with an added focus on the trends of popular songs which may be used to make thoughtful inferences on the society at the time as well as make simple predictions for popular songs in the immediate years. 
+
+
+
+*** CONTEXT ***
+Clearly music has been and will be important in our lives. We tend to identify with specific genres and cultures of music and therefore popular songs have often been classified by genre. Current research has also followed this axiom, this can be seen in the article in the referenced which mentions how evolution of music is characterised by the rise in pop songs (Lee Lin, 2012. The article, like other research, does go into further depth such as the bpm. However, the casualty of this type of research is detailed analysis of the composition of songs. The research does not evaluate the specific changes songs have undergone over time and it ‘smooths’ out the evolution in order to simplify it. Our research will help tackle this by providing analysis of specific years and general trends but in reference to the inner workings of songs.
+
+Reference: Lee Lin, H (2012) ‘Pop Music Became More Moody in Past 50 Years’ Scientific American Mind Volume 23 Issue 5 November 2012. URL: https://www.scientificamerican.com/article/scientists-discover-trends-in-pop-music/
 * LITTERATURE REVIEW *
 
 (Jasmine)
 
 * MOTIVATIONS *
+This research has and also importantly, can have far reaching positive effects for music producers and possibly even consumers. Our research will be able to comprehensively explain the actual makeup for popular songs throughout the years. Producers will be able to use this research to help shape their songs to become popular. This doesn’t necessarily mean they will follow the most recent trends but if they want to model their songs off popular retro songs, they also have the data to do this. They can even use our recent data to aid predictions of the audio features of a popular song in the coming years which can be used in music production. 
+
+Our data can also be used as a tool in conjunction with other research which has more detailed analysis of surrounding factors including environmental conditions to make more accurate predictions. It can also be used to comment on society and can even explain some reasons for societal behaviour. This is notably possibly because of the expansive breakdown of spotify’s audio features which goes further than the typical breakdown of length and artist but even explains features such as danceability, a crucial factor when understanding popular songs.
+
+Consumers may even be interested to view this information to understand more about their tastes and preferences which can serve as a form of self-introspection.
 
 *** METHODOLOY ***
 

@@ -67,6 +67,31 @@ Change elements to adapt our project.
 fig1.write_html(‘Output/Median.html’)
 
 Eventually, we convert the graphs into HTML files to insert them to our website.
+* AUDIO FEATURES *
+
+Below is a list of all the audio features we have included in our data analysis and their definitions. Spotify has also included popularity as an audio feature but as we have exclusively chosen ‘popular’ songs for our data, we felt there was no need to include this feature. We have included the rest to help provide a complete view of the makeup of a song.
+
+Length: The duration of the track in milliseconds.
+
+Danceability: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable. 
+
+Energy: Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy. 
+
+Instrumentalness: Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+
+Acousticness: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+
+Liveness: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
+
+Loudness: The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db. 
+
+Speechiness: Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks. 
+
+Tempo: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+
+Time Signature: An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). 
+
+
 
 * ANALYSIS * 
 
@@ -83,6 +108,51 @@ The first group is the smallest, containing only 30 songs. They had the lowest d
 
 References: https://stats.stackexchange.com/questions/235946/pca-before-cluster-analysis 
 https://stats.stackexchange.com/questions/183236/what-is-the-relation-between-k-means-clustering-and-pca 
+
+Rather than group the visualisations by audio features, we decided on grouping by summary statistics e.g.  displaying the mean of all the features in one graph. This was so you could compare the trends each audio feature followed to perhaps make simple observations on whether certain audio features matched up in their trend. The interactive graph adjusts it’s scale for the audio features displayed at that moment. We recommend that you view Danceability, Energy, Acousticness and Liveness together, Speechiness and Instrumentalness together and the rest on their own because of the scales of measurement of each feature discussed in the definitions. 
+
+
+The summary statistics we will be looking at are Mean, Maximum, Minimum, Median, Standard Deviation and Variance. Each of these have specific purposes: The mean will tell us a general average and is useful in then allocating a specific number that can act as a makeshift model for producers. The maximum and minimum can help identify any limits of audio features that popular songs have tended to follow. The median can help identify whether the middle value has tended to be higher or lower which can help aid our interpretations of the spread of the data. The standard deviation can help indicate the spread of the data in relation to the mean and the variance can help indicate variability of the data. All of these are important in determining if there is a specific identity to popular songs and their audio features, or is data largely spread out which can suggest there is many varieties of popular songs and their audio features.
+
+Length:
+The mean peaked at just under 300 000 mili seconds in 1979 but has since undergone a genral trend decreasing in size which indicates shorter songs are becoming more and more popular. Having said that, the maximum and minimum have widely varied in size with recent figures have eclipsed the 300 000 mark and the minimum has gone below half that telling us the longer and shorter songs still have the ability to be popular. The median of the length has followed a similar trend to the mean and so has the standard deviation and the variance. This suggests that whilst longer popular songs do exist, the trend is towards shorter songs and popular songs are tending to follow this trend largely which has decreased the variation in size and distance from the mean of the length of songs. 
+
+Danceability:
+Danceability has been on a general trend of increase as suggested by the graph of the mean. Notably, the value never falls below 0.5 indicating that high danceability has always been a common theme amongst popular songs throughout the years and is recently increasingly so.  The maximum has has risen to above 0.9 but has not followed an overall trend but the minimum has been on a trend of increase since 2004 indicating the lower end of the spectrum are becoming more danceable which has contributed to an increase in the mean. As expected, the median has also followed a trend of increase whereas from 2005, the variance and standard deviation have both followed trends of decrease as more songs become more danceable and the spread of data decreases. 
+
+Energy:
+The mean of energy had overgone a general trend of increase until 2010 where it has decreased over the last 10 years returning to levels reached during the 1970’s. It should be noted that like danceability, the mean has almost always been above 0.5 which implies popular songs are relatively energetic. The maximum has tended to reach high levels consistently meaning highly energetic songs have always been part of the popular song spectrum and the minimum has been volatile but tended to be above 0.3 in the last 20 years so popular songs are not extremetly low energy.  The median is similar to the mean but the variance and standard deviation have both been quite volatile but between smaller scales hence the spread of data can be larger and smaller in different years but both measures are quite low so songs tend to be less variable in terms of energy.
+
+Instrumentalness:
+ The mean of instrumentalness was closer to 0.1 during the 1970’s but since there the mean has been close to 0 with some years reaching 0 in the last 10 years. The maximum from the 1970’s has reached higher levels but the past 10 years. Has also been closer 0 .1 with the minimum constantly 0. The median is similar to the mean. The standard deviation and variance have also tended to be closer to 0 with some outliers in the earlier years during the 1970’s. It seems that popular songs have almost always had low levels of instrumentalness especially in the last decade and there hasn’t been much difference in the data points as the spread suggests. 
+
+Acousticness: 
+
+Over the past 50 years there has been a trend of decrease in mean acousticness although the last 5 years has shown a slight trend of increase but still at low numbers. The maximum has been volatile with extremely varying figures whereas the minimum has been close to 0 since the 1980’s. The median has also been following a trend of decrease bar the last 2 years but again still low figures under 0.2. The variance and standard deviation have both been volatile suggesting high variability of data and a larger spread although with standard deviation, figures have not climbed above 0.32 thus, the spread of data has changed but is generally not far from the mean. 
+
+Liveness: 
+
+The mean of liveness has not followed an overall trend but has been typically between 0.1 and 0.25 which are low figures. The maximum and minimum have both followed extremely volatile trends liveness in popular songs have varied from year to year. The median has been similar to the mean whereas standard deviation and variance had both also been volatile although at lower values. This indicates spread of data has changed supporting the lack of trend but has not been great at each time. 
+
+Loudness:
+Since the mid 1980’s, the mean for the loudness has undergone a significant trend of increase and so has the maximum and minimum. The median has also reflected this and naturally, the variance and standard deviation has undergone the opposite trend telling us that across the data songs are tending to increase in the loudness and there is little variation around this.  
+
+Speechiness:
+
+Since, the 1990’s, there has been a trend of increase followed by a decrease in the mean but notably all below 0.15 which indicates a low level of speechiness in popular songs throughout the decades. The maximum has followed this trend with values never climbing bove 0.5 bar 2007 where it was 0.576 thus, there is a possibility of a popular song to have an element of speechiness although evidently by the mean, not high. The minimum has not followed a specific trend but has been notoriously low throughout. The standard deviation and variance have fluctualted in the past few decades but at low figures indication a small spread of data and low variability. Therefore, popular songs mostly tend to have low speechiness. 
+
+Tempo:
+The mean of tempo has not followed a specific trend but has largely followed the moderato category of tempo (Fernández-Sotos et al., 2016). The maximum and minimum both rise and fall to extremely low levels respectively so there is potential for both sides of the spectrum to become popular songs. The median is similar to the mean but the standard deviation and variance have both fluctuated but at significant levels which means there is a large spread of data and variability. Therefore, popular songs are not necessarily moderato but they could equally be higher and lower levels consistently. 
+
+Time Signature:
+
+Whilst the time signature has no overall trend in the mean, it has always revolved between 3.9 and 4 except 1991 which was 4.05. The maximum and minimum have levels of 3 and 5 and the median is 4 constantly. The low variance and standard deviation show little variation and it’s clear popular songs have always been around the 4 beats per bar mark for time signature which should be compared with the tempo and other beat related features.
+
+Summary:
+The above summaries help provide a rough picture on the trends of audio features and also the levels they have been at in popular songs. These can be used as a model of a popular song but it should be noted that songs may have different combinations of these audio features and stating these figures as model numbers may be inaccurate as specific songs may have different audio features at different levels which average out to these levels which can then be misleading. The variance and standard deviation have helped provide a clearer picture on whether the mean may be representative of all the data and the clustering detailed elsewhere will help shed light on the interaction of audio features. 
+
+References:
+Fernández-Sotos, A., Fernández-Caballero, A., and Latorre, J. M. (2016). Influence of tempo and rhythmic unit in musical emotion regulation. Front. Comput. Neurosci. 10:80. doi: 10.3389/fncom.2016.00080
 
 *** RESULTS ***
 
@@ -138,6 +208,8 @@ as they are the one listening the most to music rather than representing the pop
 
 - Even if Spotify gives a short definition of their audio features, they are not very well defined 
 therefore, we cannot be complty  sure of their signification and their reliability.
+
+- No specific focus on years and the environmental conditions at the time which may have affected popularity of a song.
 
  *** CONCLUSIONS ***
 

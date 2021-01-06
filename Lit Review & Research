@@ -5,6 +5,8 @@ how we came up with our question
 summary of the python stuff we used and analysis 
 small conclusion on our findings
 
+Suffice to say, music is in our lives in one form or another. On average, Americans spend more than 4.5 hours a day listening to music, with this figure increasing yearly (Nielsen, 2017). However, the way we interact with music has greatly changed over the years; from The Beatles to One Direction and from John Lennon to Justin Bieber. This project is aimed at exploring what made and still makes songs ‘popular’ in their time, enough for them to end up on the infamous American Billboard Hot 100 chart, and then to analyse and compare these seemingly subjective features in a data driven, reasoned way for definitive analysis. To make our research more specific, we have come up with the question ‘How have the audio features of US Billboard top 20 songs evolved over the past 50 years?’, which we have analysed using graphs made from Python. 
+
 Lit Review - (drop down menu in Introduction section)
 Explain in more detail what we’re researching and why, citing sources
 how we came up with our Q in more detail

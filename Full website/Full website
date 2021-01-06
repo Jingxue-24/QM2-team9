@@ -8,6 +8,14 @@ In this project, we will be analyzing how popular songs have evolved in the last
 in the United States and we will be trying to answer to the question 
 ‘How have the audio features of the Billboard top 20 songs evolved over the past 50 years?’ (to improve)
 
+Suffice to say, music is in our lives in one form or another. On average, Americans spend more than 4.5 hours a day listening to music, with this figure increasing yearly (Nielsen, 2017). 
+However, the way we interact with music has greatly changed over the years; from The Beatles to One Direction and from John Lennon to Justin Bieber. 
+This project is aimed at exploring what made and still makes songs ‘popular’ in their time, enough for them to end up on the infamous American Billboard Hot 100 chart, 
+and then to analyse and compare these seemingly subjective features in a data driven, reasoned way for definitive analysis. 
+To make our research more specific, we have come up with the question ‘How have the audio features of US Billboard top 20 songs evolved over the past 50 years?’, 
+which we have analysed using graphs made from Python. These include line graphs, K-means and PCA clustering, radar charts and regression. 
+This analysis enabled us to focus on how specific audio features changed throughout the years. 
+
 * AIMS *
 1.	Explore what made songs popular in their time and how this has evolved. 
 By analysing the popular songs of each year we are able to analyse what makes these songs popular in a data driven way that looks at the songs themselves rather than supporting factors.

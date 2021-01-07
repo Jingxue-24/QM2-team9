@@ -1,7 +1,7 @@
 def LinearRegression():
     import pandas as pd
-    import matplotlib.pylot as plt
-    from sklearn.linear_model import LinearReggression
+    import matplotlib.pyplot as plt
+    from sklearn.linear_model import LinearRegression
     name_of_csv="cluster_all.csv"
     df = pd.read_csv(name_of_csv)
     df.to_numpy()
@@ -9,7 +9,6 @@ def LinearRegression():
     y = df['Instrumentalness']
     X_np=X.to_numpy()
     y_np=y.to_numpy()
-    LinearRegression().fit(X_np, y_np)
     X_np=X_np.reshape(-1, 1)
     y_np=y_np.reshape(-1, 1)
     LinearRegression().fit(X_np, y_np).coef_

@@ -140,14 +140,56 @@ Both principal components analysis (PCA) and k-means were used in this clusterin
 
 Each song had multiple (11) dimensions, which were each of the audio features. PCA was used to reduce the dimensionality, which would help reduce the noise in the k-means clustering algorithm. It was used to essentially standardized and whiten the data. In this analysis, 9 dimensions were dropped. 
 
-K-means clustering was then used to find the natural groupings of songs. Since the PCA retained components with the highest variance, the clusters will be more visible as they will be the most spread out. PCA 1 accounts for over 25% of the variance while PCA 2 accounts for approximately 13% of the variance. 
+K-means clustering was then used to find the natural groupings of songs. A Kaiser-Meyer-Olkin test was used to test the suitability of the data. With a KMO value of 0.596 the sample adequacy is almost mediocre. It indicates the our data is not the most suitable for clustering, meaning we can not heavily rely on the outcome of the k-means clustering. 
 
-The elbow method suggested 3 groupings. The first group (named as cluster 0) includes songs such as Hello by Adele, Rosanna by Toto and Take Me Home, Country Roads by John Denver. The second group (named as cluster 1) has songs such as ABC by The Jackson 5, Don’t Go Breaking My Heart by Elton John and Pompeii by Bastille. The third and final grouping (named as cluster 2) contains tracks such as I’ll Make Love To You by Boyz II Men, Perfect by Ed Sheeran and One More Try by George Michael. 
+Since the PCA retained components with the highest variance, the clusters will be more visible as they will be the most spread out. PCA 1 accounts for over 25% of the variance while PCA 2 accounts for approximately 13% of the variance. [insert variance_pcs.png]
 
-The first group is the smallest, containing only 30 songs. They had the lowest danceability and energy, with an average of 0.494 and 0.369 respectively on a 0 to 1 scale. These songs also had the highest acousticness at an average of 0.528 on a 0 to 1 scale. They also had the highest average tempo. 
+The elbow method suggested 3 groupings.  [insert k-means pca graph.png]
 
-References: https://stats.stackexchange.com/questions/235946/pca-before-cluster-analysis 
+The first group (named as cluster 0) includes songs such as I’ll Make Love to You by Boyz II Men, If I Ain’t Got You by Alicia Keys and Perfect by Ed Sheeran. Cluster 0 is the smallest, containing only 30 songs. They had the lowest danceability and energy, with an average of 0.494 and 0.369 respectively on a 0 to 1 scale. These songs also had the highest chance of being acoustic at an average confidence measure of 0.528 on a 0 to 1 scale. They also had the highest average tempo of 120.548 bpm. This cluster is also the only one with an average time signature of 3 over 4 - perhaps the defining factor of this cluster. 
+
+The second grouping (named as cluster one) is the largest one, including songs such as Rolling in the Deep by Adele, Ain't No Mountain High Enough by Diana Ross and Baby Got Back by Sir Mix-A-Lot. It contains, on average, the shortest songs with the highest danceability of 0.699 on a 0 to 1 scale. Cluster 1 has the lowest chance of being acoustic with a confidence of 0.107 and the highest average time signature of 4.005 over 4 (all songs bar 3 have 4/4 time signature). It also has the highest speechiness of 0.087. 
+
+The third and last grouping (named as cluster two) contains 322 songs, including ABC by The Jackson 5, Rosanna by TOTO and Love Yourself by Justin Bieber. Cluster 2 had the, on average, longest songs with the slowest average tempo of 114.626 bpm. Cluster 2 songs have an average danceability of 0.584 on a 0 to 1 scale. All have a time signature of 4/4. 
+
+(if you can add the example songs that would be awesome!)
+
+~ Below is more discussion stuff ~
+
+Time Signature
+Only 33 songs from our dataset of 989 songs have a time signature that is not 4/4 - this is 3.3%. Looking through an electrophysiological lens, a binary metric organization such as 2/4 or 4/4 is arguably the human default system for Western listeners. There are faster brain responses for disruptions to binary structures, suggesting they are easier to process, and hence to enjoy. 
+
+Release Year [insert interactive box plot html file]
+These three box plots highlight the spread of release years for each cluster (0,1,2). 75% of the songs in Cluster 0 are between 1978 and 2001. This is a large range, potentially due to this cluster being the smallest one (30 songs). 
+
+In Cluster 1, 75% of the songs were released between 1988 and 2010. This can be classified as the 90s and 00s. The 90s was a period that could not necessarily be defined - it saw the continuation of dance-pop and RnB from the 80s and the rise of grunge with bands like Nirvana. More importantly, in 1991, the Billboard charts changed to reflect sales figures rather than record salespeople’s projections, making them more diversified. The 2000s saw the introduction of online music services, such as Napster, increasing the rate at which music could be shared and consumed. The same diversity of the 90s continued into the 2000s as artists like Ne-Yo and Katy Perry both competing for the top spots. 
+
+Cluster 2 focuses between mid 70s and mid 90s - 75% of the songs were released between 1976 and 1994. The 70s and 80s saw the popularity of rock rise, with bands like the The Police and Eagles. With MTV launching in the 80s, it defined culture and music visually. 
+ 
+Acoustic-ness, Length and Tempo [insert k_all_acoustic_length.html ]
+This scatterplot highlights that Cluster 1 songs are very unlikely to be acoustic. These songs are predominantly from the 90s and 00s, which corresponds to the rising popularity of electronic (dance) music and also its influence in pop music. Taking songs that aren’t acoustic as electronically-based, a reason why electronic music would be popular (with Cluster 1 constituting over 60% of our dataset) is due to the unique complexities and varied sonic textures it can introduce that aren’t available with traditional instruments. Cluster 2 songs are scattered throughout the acoustic scale on the plot, but they tend to be more likely to be acoustic. Acoustic songs provide the break and diversity perhaps needed in to an electronic-filled music scene.
+
+The length and tempo of songs stays consistent throughout clusters and acoustic confidence measures - with some anomalies. 
+
+Danceability, Energy and Tempo [insert k_all_dance_energy.html ]
+This scatterplot shows a positive association between energy and danceability - the more energy a song has, the more suitable it is for dancing. 
+
+Majority of the top Billboard songs, and those in cluster 1, in the dataset have high energy and high danceability. Assuming that popular songs are those that make the listener feel happy, there is evidence that high energy songs (upbeat) boost one’s mood. Music can be more effective at eliciting positive emotions than a visual stimulus, especially when attached to personal memories. 
+
+In regards to tempo, as seen by the size of each scatter point, lower tempos are considered low energy and danceable songs. Higher tempo means that there are more beats per minute, which - according to MRIs - activate motor areas of the brain. This causes us to move to the rhythm (read: dance), hence fast tempo songs are linked to higher danceability, which is a happy state, proving to be a potential justification for popularity. 
+
+
+REFERENCES: 
+https://stats.stackexchange.com/questions/235946/pca-before-cluster-analysis 
 https://stats.stackexchange.com/questions/183236/what-is-the-relation-between-k-means-clustering-and-pca 
+https://www.real-statistics.com/multivariate-statistics/factor-analysis/validity-of-correlation-matrix-and-sample-size/ 
+https://pubmed.ncbi.nlm.nih.gov/19027894/ 
+https://www.udiscovermusic.com/stories/90s-music/ 
+https://www.aimm.edu/blog/evolution-of-music-from-the-1950s-to-the-2000s 
+https://jbonamassa.com/mtv-impacted-music/#:~:text=MTV%20became%20a%20symbol%20and,to%20boost%20album%20sales%20exponentially. 
+http://www.thembj.org/2012/10/the-rise-of-edm/ 
+https://www.psychologytoday.com/us/blog/the-athletes-way/201812/the-no-1-reason-music-has-the-power-make-us-feel-good 
+https://www.washingtonpost.com/news/to-your-health/wp/2015/10/30/the-mathematical-formula-behind-feel-good-songs/ 
 
 Rather than group the visualisations by audio features, we decided on grouping by summary statistics e.g.  displaying the mean of all the features in one graph. This was so you could compare the trends each audio feature followed to perhaps make simple observations on whether certain audio features matched up in their trend. The interactive graph adjusts it’s scale for the audio features displayed at that moment. We recommend that you view Danceability, Energy, Acousticness and Liveness together, Speechiness and Instrumentalness together and the rest on their own because of the scales of measurement of each feature discussed in the definitions. 
 

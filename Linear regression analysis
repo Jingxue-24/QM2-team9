@@ -5,3 +5,26 @@ Tempo: As shown in the graph, as time goes by, the tempo of songs increases. As 
 from 1970 to 2020, which is not such a significant difference. This shows that most popular songs throughout time, then, have had a similar tempo, and that the pace of a song might be an 
 important factor to consider when trying to compose a hit song. 
 
+Speechiness: The graph shows that as years go by, songs have more spoken words instead of longer parts of instrumentation. 
+This might be due to the rise of rap music in the 21st century, which is made up of far more words than a song of other genres. 
+
+Loudness: As years go by, the average loudness of a track (measured in decibels from -60 to 0 dB) increases by around 7 dB. 
+An explanation could be that since the late 1980s, the music industry has been using a production trick to make songs appear louder, as they pushed to 
+make each track more impactful than the next, in a sort of ‘sonic arms race’. The trick is called ‘dynamic range compression’, which boosts quieter parts of the 
+song so that the music appears louder overall. 
+
+Length: As years go by, the length of hit songs has decreased by 17,500 milliseconds on average from 1970 to 2020. While it may seem like a lot, it is only 0.29 minutes (17.5 seconds), 
+which is not as significant as it may seem. However, a possible explanation of this could be the rise of streaming services, such as Spotify. Now, instead of getting paid by physical sales, artists get paid by streams, 
+which only count if you listen to at least 30 seconds of a song. If an artist releases an album full or shorter songs, because they will get paid for every song 
+you listen to, having short songs is beneficial as it increases the streaming rate, whether or not you listen to the whole album.   
+
+Instrumentalness: From the graph, we can see how instrumentalness has decreased throughout the years.  The closer the value is to 1.0, the closer the song has no 
+vocal content. The opposite is occurring in this graph, where the vocal content is increasing through time. Again, this could be due to the rise in popularity of 
+rap music. 
+
+Energy: The intensity and activity (energy) of hit songs has increased by around 0.2 throughout the years. This could be due to the fact that tempo and loudness have increased too, 
+both of which greatly affect the overall energy of a song. 
+
+Danceability: Hit songs have become more ‘danceable’ through time. What could explain this is the rise in ‘clubbing culture’, concerts and festivals, where the 
+more a song is able to be danced to, the more it is played and the more fun people have. A song becomes popular based on streams, so if a song is upbeat and 
+danceable, chances are it is going to be played in locations from those mentioned above, to pop radios, shops and restaurants, increasing its popularity. 

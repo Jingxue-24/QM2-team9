@@ -1,0 +1,7 @@
+Another way to further analyse how these audio features have evolved through time is by performing linear regression analysis. 
+This will show if there is a trend in how the audio feature was altered through time.
+
+Tempo: As shown in the graph, as time goes by, the tempo of songs increases. As seen by the units, however, the tempo only increases by roughly 1 beat per minute 
+from 1970 to 2020, which is not such a significant difference. This shows that most popular songs throughout time, then, have had a similar tempo, and that the pace of a song might be an 
+important factor to consider when trying to compose a hit song. 
+

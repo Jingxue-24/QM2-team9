@@ -1,34 +1,46 @@
-Another way to further analyse how these audio features have evolved through time is by performing linear regression analysis. This will show if there is a trend in how the audio feature has changed through time. 
+Another way to further analyse how these audio features have evolved through time is by performing linear regression analysis. 
+This will show if there is a trend in how the audio feature has changed through time. 
 
-The R2 value (also known as the coefficient of determination), is a statistical measure of how close the data is to the regression line. More specifically, it determines the proportion of variance in the dependent variable (in our case the audio feature) that can be explained by the independent variable (time) (Glen, 2020). The value can range from 0 to 1. For example, 0% to 100% of the variation in the dependent variable (audio features) can be explained by the independent variable (time) (Glen, 2020). The R2 value is useful as it can measure the likelihood of future events falling within the predicted outcome (Glen, 2020). In our case, if time goes by, the value would tell us the probability of a hit song’s audio features being on the regression line.
+The R2 value (also known as the coefficient of determination), is a statistical measure of how close the data is to the regression line. 
+More specifically, it determines the proportion of variance in the dependent variable (in our case the audio feature) that can be explained by the independent 
+variable (time) (Glen, 2020). The value can range from 0 to 1. For example, 0% to 100% of the variation in the dependent variable (audio features) can be explained 
+by the independent variable (time) (Glen, 2020). The R2 value is useful as it can measure the likelihood of future events falling within the predicted outcome (Glen, 2020). 
+In our case, if time goes by, the value would tell us the probability of a hit song’s audio features being on the regression line.
 
-Three audio features (time signature, acousticness and liveness) have been omitted from this analysis. This is because time signature is not measured with a continuous scale, and acousticness and liveness proved to be a feature which would result in little and insignificant discussion due to the vague nature of the feature and their measure, leading them to have a negligible R2 value. 
-
+Three audio features (time signature, acousticness and liveness) have been omitted from this analysis. This is because time signature is not measured with a 
+continuous scale, and acousticness and liveness proved to be a feature which would result in little and insignificant discussion due to the vague nature of the 
+feature and their measure, leading them to have a negligible R2 value. 
 
 Tempo: As shown in the graph, as time goes by, the tempo of songs increases. As seen by the units, however, the tempo only increases by roughly 1 beat per minute 
-from 1970 to 2020, which is not such a significant difference. This shows that most popular songs throughout time, then, have had a similar tempo, and that the pace of a song might be an 
+from 1970 to 2020, which is not such a significant difference. The R-squared value is 0.0002, showing that the tempo of a song barely changes through the years. This shows that most popular songs throughout time, then, have had a similar tempo, and that the pace of a song might be an 
 important factor to consider when trying to compose a hit song. 
 
-Speechiness: The graph shows that as years go by, songs have more spoken words instead of longer parts of instrumentation. 
+Speechiness: The graph shows that as years go by, songs have more spoken words instead of longer parts of instrumentation. The R-squared value is 0.0886, 
+showing how little time influences the speechiness of a song.
 This might be due to the rise of rap music in the 21st century, which is made up of far more words than a song of other genres. 
 
-Loudness: As years go by, the average loudness of a track (measured in decibels from -60 to 0 dB) increases by around 7 dB. 
+Loudness: As years go by, the average loudness of a track (measured in decibels from -60 to 0 dB) increases by around 7 dB. The R-squared value is 0.3561, 
+showing how nearly 40% of the variance of the loudness of a song can be explained by the passing of time. 
 An explanation could be that since the late 1980s, the music industry has been using a production trick to make songs appear louder, as they pushed to 
 make each track more impactful than the next, in a sort of ‘sonic arms race’. The trick is called ‘dynamic range compression’, which boosts quieter parts of the 
 song so that the music appears louder overall. 
 
 Length: As years go by, the length of hit songs has decreased by 17,500 milliseconds on average from 1970 to 2020. While it may seem like a lot, it is only 0.29 minutes (17.5 seconds), 
-which is not as significant as it may seem. However, a possible explanation of this could be the rise of streaming services, such as Spotify. Now, instead of getting paid by physical sales, artists get paid by streams, 
+which is not as significant as it may seem. The R-squared value is 0.014, showing how the length of a song does not change that much because of time passing. 
+However, a possible explanation of this could be the rise of streaming services, such as Spotify. Now, instead of getting paid by physical sales, artists get paid by streams, 
 which only count if you listen to at least 30 seconds of a song. If an artist releases an album full or shorter songs, because they will get paid for every song 
 you listen to, having short songs is beneficial as it increases the streaming rate, whether or not you listen to the whole album.   
 
 Instrumentalness: From the graph, we can see how instrumentalness has decreased throughout the years.  The closer the value is to 1.0, the closer the song has no 
-vocal content. The opposite is occurring in this graph, where the vocal content is increasing through time. Again, this could be due to the rise in popularity of 
+vocal content. The opposite is occurring in this graph, where the vocal content is increasing through time. The R-squared value is 0.012, showing how it is very 
+unlikely that the change in the instrumentalness of a song was due to the passing of time. Again, this could be due to the rise in popularity of 
 rap music. 
 
-Energy: The intensity and activity (energy) of hit songs has increased by around 0.2 throughout the years. This could be due to the fact that tempo and loudness have increased too, 
+Energy: The intensity and activity (energy) of hit songs has increased by around 0.2 throughout the years. The R-squared value is 0.0599, showing how just because a hit song was more energetical, 
+does not mean it was due to the period it was recorded in.  This could be due to the fact that tempo and loudness have increased too, 
 both of which greatly affect the overall energy of a song. 
 
-Danceability: Hit songs have become more ‘danceable’ through time. What could explain this is the rise in ‘clubbing culture’, concerts and festivals, where the 
+Danceability: Hit songs have become more ‘danceable’ through time. The R-squared value is 0.0363, showing how time does not seem to be the only reason songs became more danceable. 
+What could explain this is the rise in ‘clubbing culture’, concerts and festivals, where the 
 more a song is able to be danced to, the more it is played and the more fun people have. A song becomes popular based on streams, so if a song is upbeat and 
 danceable, chances are it is going to be played in locations from those mentioned above, to pop radios, shops and restaurants, increasing its popularity. 

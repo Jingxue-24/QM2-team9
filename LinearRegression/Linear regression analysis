@@ -1,9 +1,9 @@
-Another way to further analyse how these audio features have evolved through time is by performing linear regression analysis. 
-This will show if there is a trend in how the audio feature was altered through time.
+Another way to further analyse how these audio features have evolved through time is by performing linear regression analysis. This will show if there is a trend in how the audio feature has changed through time. 
 
-Two of the audio features (time signature and acousticness) have been omitted from this analysis. 
-This is because time signature is not measured with a continuous scale, and acousticness proved to be a feature which would result in little and insignificant 
-discussion due to the vague nature of the feature and its measure. 
+The R2 value (also known as the coefficient of determination), is a statistical measure of how close the data is to the regression line. More specifically, it determines the proportion of variance in the dependent variable (in our case the audio feature) that can be explained by the independent variable (time) (Glen, 2020). The value can range from 0 to 1. For example, 0% to 100% of the variation in the dependent variable (audio features) can be explained by the independent variable (time) (Glen, 2020). The R2 value is useful as it can measure the likelihood of future events falling within the predicted outcome (Glen, 2020). In our case, if time goes by, the value would tell us the probability of a hit song’s audio features being on the regression line.
+
+Three audio features (time signature, acousticness and liveness) have been omitted from this analysis. This is because time signature is not measured with a continuous scale, and acousticness and liveness proved to be a feature which would result in little and insignificant discussion due to the vague nature of the feature and their measure, leading them to have a negligible R2 value. 
+
 
 Tempo: As shown in the graph, as time goes by, the tempo of songs increases. As seen by the units, however, the tempo only increases by roughly 1 beat per minute 
 from 1970 to 2020, which is not such a significant difference. This shows that most popular songs throughout time, then, have had a similar tempo, and that the pace of a song might be an 

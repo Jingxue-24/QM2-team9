@@ -15,13 +15,14 @@ This question will be answered using a different Python data science methods.
 ## Aims 🎯
 
 👉  Explore what audio features are prominent in popular songs. 
+
 👉  Discuss and compare composite factors of popular songs throughout the years to identify any trends. 
 
 ## How To Use This Repo 📝
 Each aspect of our assignment has been divided into folders. 
 
  - **Spotify API** ➡️➡️➡️ dataset cleaning and merging
- -  **Data per year/decade** ➡️➡️➡️ csv file(s) of cleaned and merged dataset(s)
+ - **Data per year/decade** ➡️➡️➡️ csv file(s) of cleaned and merged dataset(s)
  - **Summary Statistics** ➡️➡️➡️ code and csv files for summary statistics and measures of central tendency
  - **Radar Charts** ➡️➡️➡️ code for creating radar charts
  - **Linear Regression** ➡️➡️➡️  code and discussion for linear regression

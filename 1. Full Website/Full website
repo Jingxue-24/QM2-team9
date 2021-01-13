@@ -271,10 +271,13 @@ Interactive radar chart:
 
 We can now see in more details how each audio feature evolved trough years:
 
-*REGRESSION*
+*REGRESSION and ANOVA*
 
-Another way to further analyse how these audio features have evolved through time is by performing linear regression analysis. 
-This will show if there is a trend in how the audio feature was altered through time.
+To find out if the evolution of the audio features are statistically significant, ANOVAs and linear regressions were performed.
+
+A one-way analysis of variance (ANOVA) treats the decades as categorical variables and informed us whether the differences in the sample (the Top 20 US Billboard songs over the past 50 years) can be generalised as population differences. It will confirm if the change is statistically significant or just due to random variation. However, the ANOVA can not confirm the direction of the difference (whether it an increase or decrease). 
+
+The linear regression treats the decades as continuous variables. This allowed us to show if there is a trend in how the audio feature have changed through time
 
 The R2 value (also known as the coefficient of determination), is a statistical measure of how close the data is to the regression line. 
 More specifically, it determines the proportion of variance in the dependent variable (in our case the audio feature) that can be explained by the independent 
@@ -292,19 +295,22 @@ Tempo: As shown in the graph, as time goes by, the tempo of songs increases. As 
 from 1970 to 2020, which is not such a significant difference. The R-squared value is 0.0002, showing that the tempo of a song barely changes through the years. 
 This shows that most popular songs throughout time, then, have had a similar tempo, and that the pace of a song might be an important factor to consider when trying to compose a hit song. 
 
+The ANOVA also suggests that there is no statistically significant difference between tempo and time (p > 0.05).
+
 (Graph 2)
 
-Speechiness: The graph shows that as years go by, songs have more spoken words instead of longer parts of instrumentation. 
+Speechiness: The graph shows that as years go by, songs have more spoken words instead of longer parts of instrumentation - a statistically significant difference (p < 0.01).  
 The R-squared value is 0.0886, showing how little time influences the speechiness of a song.
 This might be due to the rise of rap music in the 21st century, which is made up of far more words than a song of other genres. 
 
 (Graph 3)
 
-Loudness: As years go by, the average loudness of a track (measured in decibels from -60 to 0 dB) increases by around 7 dB. 
+Loudness: As years go by, the average loudness of a track (measured in decibels from -60 to 0 dB) increases by around 7 dB, which is a statistically significant change (p < 0.01). 
 The R-squared value is 0.3561, showing how nearly 40% of the variance of the loudness of a song can be explained by the passing of time. 
 An explanation could be that since the late 1980s, the music industry has been using a production trick to make songs appear louder, as they pushed to make each track 
 more impactful than the next, in a sort of ‘sonic arms race’. The trick is called ‘dynamic range compression’, which boosts quieter parts of the song so that the music 
 appears louder overall. 
+
 
 (Graph 4)
 
@@ -315,6 +321,8 @@ However, a possible explanation of this could be the rise of streaming services,
 least 30 seconds of a song. If an artist releases an album full or shorter songs, because they will get paid for every song you listen to, having short songs is beneficial 
 as it increases the streaming rate, whether or not you listen to the whole album.   
 
+ Regardless, the ANOVA confirms that there is a statistically significant difference over time (p < 0.01). 
+
 (Graph 5)
 
 Instrumentalness: From the graph, we can see how instrumentalness has decreased throughout the years.  
@@ -322,18 +330,21 @@ The closer the value is to 1.0, the closer the song has no vocal content. The op
 increasing through time. The R-squared value is 0.012, showing how it is very unlikely that the change in the instrumentalness of a song was due to the passing of time. 
 Again, this could be due to the rise in popularity of rap music. 
 
+This change is statistically significant as seen in the ANOVA (p < 0.01).  
+
 (Graph 6)
 
 Energy: The intensity and activity (energy) of hit songs has increased by around 0.2 throughout the years. 
 The R-squared value is 0.0599, showing how just because a hit song was more energetical, does not mean it was due to the period it was recorded in.  
 This could be due to the fact that tempo and loudness have increased too, both of which greatly affect the overall energy of a song. 
 
+a statistically significant difference according to the ANOVA (p < 0.01)
+
 (Graph 7)
 
-Danceability: Hit songs have become more ‘danceable’ through time. 
-The R-squared value is 0.0363, showing how time does not seem to be the only reason songs became more danceable. 
-What could explain this is the rise in ‘clubbing culture’, concerts and festivals, where the more a song is able to be danced to, the more it is played and the more fun people have. A song becomes popular based on streams, so if a song is 
-upbeat and danceable, chances are it is going to be played in locations from those mentioned above, to pop radios, shops and restaurants, increasing its popularity. 
+Danceability: The ANOVA between danceability and the decades shows a statistically significant difference (p < 0.05), which the graph confirms is an increase over time. It shows that popular songs have become more ‘danceable’ through time. 
+
+The R-squared value is 0.0363, showing that time does not seem to be the only predictive factor of why songs have become more danceable. 
 
 * EVALUATION*
 

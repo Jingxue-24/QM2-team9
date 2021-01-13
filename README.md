@@ -10,7 +10,9 @@ We are Ebani, Louise, Jing, Kumayl and Jasmine - students at University College 
 ## What Are We Investigating? 🤔
 Using [Spotify's API](https://developer.spotify.com/documentation/web-api/) and the [US Billboard Charts](https://www.billboard.com/charts/hot-100), we are answering the question: ***How have the audio features of  popular songs evolved over the past 50 years?*** (NB: popular is defined as Top 20 US Billboard songs)
 
-This question will be answered using a different Python data science methods. 
+This question will be answered using a different Python data science methods.
+
+For the full analysis and process, check out our [website!](https://jingxue19.wixsite.com/team9)
 
 ## Aims 🎯
 
